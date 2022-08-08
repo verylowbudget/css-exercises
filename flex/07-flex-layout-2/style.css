@@ -8,6 +8,7 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  
 }
 
 .footer {
@@ -25,4 +26,19 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.contentBody {
+  display: flex;
+}
+
+/* Sidebar styling */
+
+.sidebar li {
+  text-decoration: none;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
 }
